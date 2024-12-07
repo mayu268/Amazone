@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header, footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/* .essentials-section h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    
+} */
+
+/* Container for clothing items */
+.clothing-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual clothing item */
+.clothing-item {
+    text-align: center;
+}
+
+.clothing-item img {
+    width: 80%;
+    height: 80%;
+    max-width: 180px;
+    margin-bottom: 10px;
+}
+
+.clothing-name {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.clothing-price {
+    font-size: 16px;
+    color: #b12704;
+}
