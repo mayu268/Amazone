@@ -1,0 +1,52 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Music container styling */
+.music-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+/* Individual music item styling */
+.music-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Music image styling */
+.music-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Music info styling */
+.music-info h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.music-info p {
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Strong emphasis on stock availability */
+.music-info strong {
+    color: #d9534f;
+}
+
